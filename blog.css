@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0px solid rgb(202, 190, 190);
+}
+
+body {
+  font-family: Arial, sans-serif;
+
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  /* Zentriert den Container horizontal */
+}
+
+/* Container mit maximaler Breite */
+.container {
+  max-width: 1580px;
+  width: 100%;
+  /* Damit es auf kleinen Bildschirmen flexibel bleibt */
+
+  background: #ffffff;
+  /* Weißer Hintergrund */
+
+}
+
+/* Header-Stile */
+header {
+  text-align: center;
+  padding: 20px 0;
+
+  color: white;
+  margin-bottom: 20px;
+}
+
+.div-logo-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.div-a-ref {
+  display: flex;
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  /* Abstand zwischen den Links */
+
+}
+
+.header-aref {
+  font-size: 26px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: black;
+}
+
+.logo-timber {
+  width: 400px;
+  margin-top: 10px;
+  height: 140px;
+}
+
+.div-link-button {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.button-kontakt {
+  padding: 20px 45px;
+  /* Größe des Buttons */
+  font-size: 20px;
+  /* Textgröße */
+  color: white;
+  /* Textfarbe */
+  background-color: rgb(102, 173, 41);
+  /* Buttonfarbe */
+  border: none;
+  /* Entfernt den Standardrahmen */
+  border-radius: 5px;
+  /* Abgerundete Ecken */
+  cursor: pointer;
+  /* Hand-Cursor für Interaktivität */
+  transition: background-color 0.3s ease;
+  /* Übergangseffekt */
+  font-family: 'Arial', sans-serif;
+  /* Ändert die Schriftart zu Arial */
+  font-weight: 100;
+  border-radius: 0;
+  margin-left: 70px;
+}
+
+.button-kontakt:hover {
+  background-color: rgb(68, 127, 17);
+  /* Buttonfarbe beim Hover */
+}
+
+
+/* Hauptbereich */
+/* Hauptbereich */
+/* Hauptbereich */
+
+
+
+main {
+  padding: 20px;
+}
+.fichtenwald{
+width: 100%;
+height: 300px;
+
+
+}
+
+.fichtenwald1{
+width: 100%;
+height: 700px;
+
+}
+
+
+.div-blog {
+  display: flex;
+  justify-content: center;
+}
+
+.h1-blog {
+  font-size: 80px;
+  letter-spacing: 5px;
+  margin-top: -40px;
+  color: white;
+}
+
+.div-blog-section2 {
+
+  width: 100%;
+  height: auto;
+  margin-top: 400px;
+}
+
+.blog-order {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+  /* Abstand zwischen den Links */
+
+
+}
+
+.div-inner-blog {
+  display: flex;
+  flex-direction: row;
+  gap: 190px;
+}
+
+/* Hauptdiv */
+.clickable-div {
+  width: 400px;
+  /* Breite */
+  height: 500px;
+  /* Höhe */
+  background-color: #aaacaa;
+  /* Grundfarbe */
+  color: rgb(0, 0, 0);
+  /* Textfarbe */
+  display: flex;
+  flex-direction: column;
+  /* Ordnet die Unter-Divs vertikal */
+  border-radius: 10px;
+  /* Abgerundete Ecken */
+  overflow: hidden;
+  /* Verhindert Überlappungen */
+  cursor: pointer;
+  /* Zeigt Klickbarkeit an */
+  transition: transform 0.3s, box-shadow 0.3s;
+  /* Animationen */
+}
+
+/* Hover-Effekt für die Hauptdiv */
+.clickable-div:hover {
+  transform: scale(1.05);
+  /* Leicht vergrößern */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  /* Schatten hinzufügen */
+
+}
+
+/* Untergeordnete Divs */
+.inner-div {
+  display: flex;
+  justify-content: center;
+  /* Zentriert Text horizontal */
+  align-items: center;
+  /* Zentriert Text vertikal */
+}
+
+/* Obere Div (25%) */
+.top {
+  flex: 0 0 25%;
+  /* 25% der Höhe */
+  background-color: rgb(102, 173, 41);
+}
+
+/* Mittlere Div (60%) */
+.middle {
+  flex: 0 0 60%;
+  /* 60% der Höhe */
+
+}
+
+/* Untere Div (15%) */
+.bottom {
+  flex: 0 0 15%;
+  /* 15% der Höhe */
+  background-color: #faf9f7;
+  /* Gelb */
+}
+
+
+
+/* Footer-Stile */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #333;
+  color: white;
+  margin-top: 120px;
+}

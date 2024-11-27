@@ -1,0 +1,32 @@
+/* Grundlegendes CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+
+}
+
+.container {
+    width: 100%; /* Breite 100% */
+    max-width: 1580px; /* Maximale Breite */
+    margin: 0 auto; /* Zentriert den Container */
+    padding: 20px; /* Innenabstand */
+    background-color: #fff; /* Hintergrundfarbe für den Inhalt */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Schatten */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #007b5e;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1rem;
+}

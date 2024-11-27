@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: px solid rgb(202, 190, 190);
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* Zentriert den Container horizontal */
+  }
+  
+  /* Container mit maximaler Breite */
+  .container {
+    max-width: 1580px;
+    width: 100%;
+    /* Damit es auf kleinen Bildschirmen flexibel bleibt */
+  
+    background: #ffffff;
+    /* Weißer Hintergrund */
+  
+  }
+  
+  /* Header-Stile */
+  header {
+    text-align: center;
+    padding: 20px 0;
+  
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .div-logo-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .div-a-ref {
+    display: flex;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+    /* Abstand zwischen den Links */
+  
+  }
+  
+  .header-aref {
+    font-size: 26px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .logo-timber {
+    width: 400px;
+    margin-top: 10px;
+    height: 140px;
+  }
+  
+  .div-link-button {
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  .button-kontakt {
+    padding: 20px 45px;
+    /* Größe des Buttons */
+    font-size: 20px;
+    /* Textgröße */
+    color: white;
+    /* Textfarbe */
+    background-color: rgb(102, 173, 41);
+    /* Buttonfarbe */
+    border: none;
+    /* Entfernt den Standardrahmen */
+    border-radius: 5px;
+    /* Abgerundete Ecken */
+    cursor: pointer;
+    /* Hand-Cursor für Interaktivität */
+    transition: background-color 0.3s ease;
+    /* Übergangseffekt */
+    font-family: 'Arial', sans-serif;
+    /* Ändert die Schriftart zu Arial */
+    font-weight: 100;
+    border-radius: 0;
+    margin-left: 70px;
+  }
+  
+  .button-kontakt:hover {
+    background-color: rgb(68, 127, 17);
+    /* Buttonfarbe beim Hover */
+  }
+  
+  
+  /* Hauptbereich */
+  /* Hauptbereich */
+  /* Hauptbereich */
+  
+  
+  
+  main {
+    padding: 20px;
+  }
+
+
+  .container1 {
+    width: 100%;
+    max-width: 1580px;
+    margin: 0 auto;
+    padding: 20px;  
+}
+.cta {
+    background-color: #fff;
+    padding: 20px;
+    margin: 60px 0;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.cta h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+.cta p {
+    margin-bottom: 20px;
+}
+.cta button {
+    padding: 10px 20px;
+    background-color: #8d5524;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.cta button:hover {
+    background-color: #6b4120;
+}
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+form button {
+    padding: 10px 20px;
+    background-color: #8d5524;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+form button:hover {
+    background-color: #6b4120;
+}
+  .fichtenwald{
+  width: 100%;
+  height: 300px;
+  }
+  .section2-anfrage{
+
+    width: 100%;
+    height: auto;
+  }
+
+  
+  /* Footer-Stile */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(39,39,37);
+    color: white;
+    margin-top: 120px;
+  }
+  .div-inner-anfrage-1{
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    margin-top: -65px;
+  }
