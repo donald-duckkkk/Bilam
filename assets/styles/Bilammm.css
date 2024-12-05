@@ -1,0 +1,644 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0px solid rgb(224, 48, 48) !important;
+    box-sizing: border-box;
+  }
+  
+  .body {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box;
+    /* Wichtig für konsistente Layout-Berechnungen */
+    width: 100%;
+    height: 100%;
+  
+  }
+  
+  .header12 {
+    background-color: white;
+  
+  }
+  
+  .zero-div {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(39, 39, 37);
+  
+  }
+  
+  .second-div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .third-div {
+    width: 100%;
+    max-width: 1800px;
+    height: 200px;
+    margin-top: -14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .div-logo {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .ul-header {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .container {
+    text-align: center;
+    /* Zentriere alle Inhalte horizontal */
+    line-height: 1.5;
+    /* Einheitliche Zeilenhöhe für alle Elemente */
+  }
+  
+  p,
+  a {
+    display: inline-block;
+    /* Macht das <a> wie die <p>-Elemente */
+    margin: 0;
+    padding: 10px 20px;
+  
+    color: rgb(14, 14, 14);
+    text-decoration: none;
+  }
+  
+  .logo-timber {
+    width: 500px;
+    margin-top: 25px;
+    height: 140px;margin-left: -30px;
+  }
+  
+  .header-aref {
+    font-size: 26px;
+    font-family: sans-serif;
+  }
+  
+  .button-kontakt {
+    padding: 20px 45px;
+    /* Größe des Buttons */
+    font-size: 20px;
+    /* Textgröße */
+    color: white;
+    /* Textfarbe */
+    background-color: rgb(102, 173, 41);
+    /* Buttonfarbe */
+    border: none;
+    /* Entfernt den Standardrahmen */
+    border-radius: 5px;
+    /* Abgerundete Ecken */
+    cursor: pointer;
+    /* Hand-Cursor für Interaktivität */
+    transition: background-color 0.3s ease;
+    /* Übergangseffekt */
+    font-family: 'Arial', sans-serif;
+    /* Ändert die Schriftart zu Arial */
+    font-weight: 100;
+    border-radius: 0;
+    margin-left: 70px;
+  }
+  
+  .button-kontakt:hover {
+    background-color: rgb(68, 127, 17);
+    /* Buttonfarbe beim Hover */
+  
+  }
+  
+  .div-footer {
+    background-color: rgb(39, 39, 37);
+    height: 400px;
+  }
+  
+  .background-div {
+    width: 100vw;
+    /* Volle Breite des Bildschirms */
+    height: 1000px;
+    /* Höhe der Div */
+    background-image: url('first-pic.PNG');
+    /* Hintergrundbild */
+    background-size: cover;
+    /* Hintergrundbild füllt den Bereich */
+    background-position: center;
+    /* Hintergrundbild zentrieren */
+    background-repeat: no-repeat;
+    /* Kein wiederholtes Bild */
+    display: flex;
+    /* Ermöglicht Zentrierung von Inhalt */
+    justify-content: center;
+    /* Horizontale Zentrierung */
+    align-items: center;
+    /* Vertikale Zentrierung */
+  }
+  
+  .text-container {
+    width: 100%;
+    /* Füllt den verfügbaren Platz */
+    max-width: 1800px;
+    /* Begrenzung der Breite auf 1480px */
+    text-align: center;
+    /* Zentriert den Text */
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    /* Textfarbe */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /* Schatten für Lesbarkeit */
+    padding: 0 20px;
+    /* Optional: Innenabstand für kleinere Bildschirme */
+  }
+  
+  /* Bild und Overlay */
+  .image-container {
+    position: relative;
+    width: 100%;
+    /* Volle Breite für das Hintergrundbild */
+    height: 940px;
+    /* Höhe des Containers */
+    overflow: hidden;
+    /* Überstehendes Bild wird abgeschnitten */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Skaliert das Bild, damit es den Container ausfüllt */
+  }
+  
+  /* Wrapper für zentrierte Inhalte */
+  .content-wrapper {
+    position: absolute;
+    /* Legt den Inhalt über das Bild */
+    top: 0;
+    left: 0;
+    width: 100%;
+  
+    /* Füllt den Container aus */
+    height: 100%;
+    /* Gleiche Höhe wie der Container */
+    display: flex;
+    /* Ermöglicht zentriertes Layout */
+    justify-content: center;
+    /* Horizontale Zentrierung */
+    align-items: center;
+    /* Vertikale Zentrierung */
+  }
+  
+  /* Zentrierter Inhalt mit max-width */
+  .text-container {
+    max-width: 1800px;
+    /* Begrenzung auf 1480px Breite */
+    width: 100%;
+    /* Sorgt dafür, dass die Breite flexibel bleibt */
+    text-align: center;
+    /* Zentriert den Text innerhalb des Containers */
+    color: white;
+    /* Textfarbe */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /* Schatten für bessere Lesbarkeit */
+    padding: 0%;
+  }
+  
+  .text-container h1 {
+    font-size: 2.5rem;
+    /* Größe der Überschrift */
+    margin: 0;
+    /* Entfernt Standard-Abstand */
+  }
+  
+  .under-div-section-2 {
+    margin-top: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .h1-section-2 {
+    font-size: 85px !important;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  
+  .p-section-2 {
+    color: white;
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: start;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .section-two-button {
+    color: white;
+    background-color: rgb(102, 173, 41);
+    border: none;
+    width: 280px;
+    height: 78px;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+    /* Übergangseffekt */
+    margin-top: 50px;
+  }
+  
+  .section-two-button:hover {
+    background-color: rgb(68, 127, 17);
+    /* Buttonfarbe beim Hover */
+  }
+  
+  .section-3 {
+    background-color: rgb(39, 39, 37);
+    width: 100%;
+    height: auto;
+    margin: top -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .h2-div {
+    margin-bottom: 120px;
+    margin-top: 150px;
+  }
+  
+  .h2-section-3 {
+    color: white;
+    font-size: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .h3-section3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: start;
+  
+    line-height: 1.6;
+  }
+  
+  
+  
+  /* Gesamtcontainer */
+  .parent-div {
+    display: flex;
+    /* Nebeneinander anordnen */
+    gap: 5px;
+    /* Abstand zwischen den Hauptdivs */
+  }
+  
+  /* Haupt-Divs */
+  .child-div {
+    display: flex;
+    flex-direction: column;
+    /* Untereinander anordnen */
+    width: 600px;
+    /* Breite der Hauptdivs */
+    height: auto !important;
+    /* Höhe der Hauptdivs */
+    padding: 20px;
+    margin-bottom: 120px;
+  }
+  
+  /* Inner-Divs */
+  .inner-div {
+    flex: 1;
+    /* Gleiche Höhe für alle inneren Divs */
+    margin-bottom: 40px;
+    /* Abstand zwischen den inneren Divs */
+    text-align: center;
+    /* Text zentrieren */
+    display: flex;
+    flex-direction: column;
+  
+  
+  }
+  
+  .child-div:hover {
+    transform: scale(1.05);
+    border-color: #68a72a;
+  
+  
+  
+    transition: transform 0.5s ease;
+    /* Übergangsdauer und Timing-Funktion */
+  }
+  
+  .img-Nachhaltigkeit {
+    width: 560px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .img-Keilzinkungen {
+    width: 560px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .img-industrie-4-0 {
+    width: 560px;
+    height: 400px;
+    overflow: hidden;
+  }
+  
+  .p-section-3-unter-bilder {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    line-height: 1.7;
+    text-align: left;
+    margin-top: 5px;
+    padding: 0;
+    margin-top: 40px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  
+  
+  .div-section-4 {
+    background-color: rgb(240, 240, 241);
+    height: auto;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .inner-div-section-4 {
+    width: 100%;
+    max-width: 1800px;
+    margin-top: 70px;
+    margin-bottom: 200px
+  }
+  
+  .div-h4-section4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+  }
+  
+  .h4-section4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+  }
+  
+  .div-vorteile-section4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+    justify-content: space-between;
+  
+  }
+  
+  .p-section4-vorteile {
+    color: rgb(102, 173, 41);
+    font-size: 42px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  
+  }
+  
+  .bild-section-4 {
+    width: 760px;
+    height: 700px;
+    display: block;
+  
+  }
+  
+  #why-bilam {
+    padding: 0px 20px;
+    background-color: rgb(240, 240, 241);
+    text-align: center;
+  }
+  
+  #why-bilam h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #why-bilam ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  #why-bilam ul li {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+    /* Text neben dem Plus-Symbol ausrichten */
+    gap: 10px;
+    /* Abstand zwischen Plus und Text */
+  }
+  
+  .p-section-4 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #why-bilam .plus-symbol {
+    font-size: 2.5rem;
+    /* Größe des Plus-Symbols */
+    font-weight: bold;
+    color: rgb(102, 173, 41);
+    /* Grüne Akzentfarbe */
+  }
+  
+  .div-bild-balkenschichtholz {
+    margin-top: 20px;
+  
+  }
+  
+  
+  .href-section-4-bestellen {
+    padding: 25px 95px;
+    /* Größe des Buttons */
+    font-size: 27px;
+    /* Textgröße */
+    color: white;
+    /* Textfarbe */
+    background-color: rgb(102, 173, 41);
+    /* Buttonfarbe */
+    border: none;
+    /* Entfernt den Standardrahmen */
+    border-radius: 5px;
+    /* Abgerundete Ecken */
+    cursor: pointer;
+    /* Hand-Cursor für Interaktivität */
+    transition: background-color 0.3s ease;
+    /* Übergangseffekt */
+    font-family: 'Arial', sans-serif;
+    /* Ändert die Schriftart zu Arial */
+    font-weight: 100;
+    border-radius: 0;
+    margin-left: 70px;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .href-section-4-bestellen:hover {
+    background-color: rgb(68, 127, 17);
+    /* Buttonfarbe beim Hover */
+  
+  }
+  
+  /* --------section-5 -----------*/
+  
+  .section-5 {
+    width: 100%;
+    height: auto;
+    background-color: rgb(39, 39, 37);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  
+  }
+  
+  .div-section-5 {
+    max-width: 1800px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+  
+  .h3-section-5 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    margin-top: 150px;
+  }
+  
+  .div-section-5-anwendung {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+  
+  }
+  
+  .iqmage-container {
+    margin-top: 150px;
+    max-width: 1800px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .iqmage-container img {
+    width: 100%;
+    height: 100%;
+    /* Automatische Höhe für einheitliches Seitenverhältnis */
+  }
+  
+  /* Info-Sektion (Anwendungs- und Einsatzbereiche) */
+  .info-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    /* Für kleinere Bildschirme */
+  }
+  
+  .info-box {
+    flex: 1;
+    padding: 20px;
+    border-radius: 5px;
+  
+  }
+  
+  .h3-section-5-1-anwendungs {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 34px !important;
+    text-align: start !important;
+    margin-bottom: 60px !important;
+    margin-top: -40px;
+  }
+  
+  .info-box h3 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .info-box ul {
+    list-style: disc;
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  .info-box ul li {
+    margin: 20px 0;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  .info-box ul li::marker {
+    color: rgb(102, 173, 41);
+    /* Grüne Farbe für die Punkte */
+    font-size:30px;
+    /* Optional: Größe der Punkte */
+  }
+  
+  /* Responsives Verhalten */
+  @media (max-width: 768px) {
+    .info-section {
+      flex-direction: column;
+    }
+  
+    .info-box {
+      margin-bottom: 20px;
+    }
+  }
+  /*logo design
+   */
+  
+   .logo122{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+  
+   }
+   .timberlineeeee{
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  
+  
+   }
+  
+   .europeeee{
+  
+  color: #68a72a;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: -20px;
+   }

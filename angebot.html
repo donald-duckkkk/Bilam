@@ -7,12 +7,14 @@
     content="Hochwertiges Bilam-Holz in verschiedenen Größen – ideal für Bau- und Möbelkonstruktionen. Jetzt entdecken!">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog-Timberline Europe</title>
-  <link rel="stylesheet" href="angebot.css"> <!-- Optional: Dein CSS -->
-  <script src="blog.js"></script>
+  <link rel="stylesheet" href="/assets/styles/angebot.css">
+  <script src="/assets/script/blog.js"></script>
+  <script src="assets/script/perlinen.js"></script>
   <link rel="icon" href="favicon-32x32.png" type="image/x-icon">
 </head>
 
 <body>
+  <div id="header-placeholder"></div>
   <div class="container">
     <header>
       <div class="div-logo-link">
@@ -32,41 +34,43 @@
     <main>
     </main>
   </div>
-  <div class="div-inner-anfrage-1"><div class="section2-anfrage">
-    <div class="container1">
-      <div class="cta">
-        <h2>Angebot anfordern</h2>
-        <p>Füllen Sie das Formular aus, um ein individuelles Angebot für Ihr Bilam-Holz zu erhalten.</p>
-       
+  <div class="div-inner-anfrage-1">
+    <div class="section2-anfrage">
+      <div class="container1">
+        <div class="cta">
+          <h2>Angebot anfordern</h2>
+          <p>Füllen Sie das Formular aus, um ein individuelles Angebot für Ihr Bilam-Holz zu erhalten.</p>
+
+        </div>
+        <form id="anfrageForm" action="mailto:deinemail@example.com" method="post" enctype="text/plain">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Ihr Name" required>
+
+          <label for="email">E-Mail-Adresse:</label>
+          <input type="email" id="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
+
+          <label for="phone">Telefonnummer:</label>
+          <input type="text" id="phone" name="phone" placeholder="Ihre Telefonnummer" required>
+
+          <label for="dimensions">Maße (Länge x Breite x Höhe in cm):</label>
+          <input type="text" id="dimensions" name="dimensions" placeholder="z. B. 300 x 10 x 5" required>
+
+          <label for="quantity">Menge:</label>
+          <input type="number" id="quantity" name="quantity" placeholder="Anzahl der Stücke" required>
+
+          <label for="message">Zusätzliche Informationen:</label>
+          <textarea id="message" name="message" rows="5"
+            placeholder="Beschreiben Sie Ihre Anforderungen oder Fragen"></textarea>
+
+          <button type="submit">Anfrage absenden</button>
+        </form>
       </div>
-      <form id="anfrageForm" action="mailto:deinemail@example.com" method="post" enctype="text/plain">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Ihr Name" required>
-
-        <label for="email">E-Mail-Adresse:</label>
-        <input type="email" id="email" name="email" placeholder="Ihre E-Mail-Adresse" required>
-
-        <label for="phone">Telefonnummer:</label>
-        <input type="text" id="phone" name="phone" placeholder="Ihre Telefonnummer" required>
-
-        <label for="dimensions">Maße (Länge x Breite x Höhe in cm):</label>
-        <input type="text" id="dimensions" name="dimensions" placeholder="z. B. 300 x 10 x 5" required>
-
-        <label for="quantity">Menge:</label>
-        <input type="number" id="quantity" name="quantity" placeholder="Anzahl der Stücke" required>
-
-        <label for="message">Zusätzliche Informationen:</label>
-        <textarea id="message" name="message" rows="5"
-          placeholder="Beschreiben Sie Ihre Anforderungen oder Fragen"></textarea>
-
-        <button type="submit">Anfrage absenden</button>
-      </form>
     </div>
-  </div></div>
+  </div>
 
   <footer>
-    <p>© 2024 Meine Webseite. Alle Rechte vorbehalten.</p>
-  </footer>
+    <div id="footer-placeholder"></div>
+</footer>
 </body>
 
 </html>

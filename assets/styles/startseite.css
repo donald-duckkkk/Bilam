@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0px solid rgb(224, 48, 48) !important;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container44 {
+  width: 100%;
+  max-width: 1580px;
+  margin: 0 auto; /* Zentriert den Container */
+  padding: 20px; /* Optionaler Innenabstand */
+  background-color: #f9f9f9; /* Optional: Hintergrundfarbe */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Schatten für Styling */
+}
