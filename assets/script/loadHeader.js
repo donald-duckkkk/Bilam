@@ -1,19 +1,25 @@
-// Aktuelle Sprache aus URL ermitteln (z. B. index_en.html für Englisch)
-const isEnglish = window.location.pathname.includes("_en");
+// Aktuelle URL prüfen
+const pathname = window.location.pathname;
+let headerPath = "components/Header.html"; // Standard: Deutsch
 
-// Header-Pfad setzen basierend auf Sprache
-const headerPath = isEnglish ? "components/Header_en.html" : "components/Header_de.html";
+// Header für die entsprechende Sprache laden
+if (pathname.includes("_en")) {
+    headerPath = "components/Header_en.html";
+} else if (pathname.includes("_it")) {
+    headerPath = "components/Header_it.html";
+}
 
-// Header laden und einfügen
+// Header laden
 fetch(headerPath)
-  .then(response => {
-    if (!response.ok) throw new Error("Header konnte nicht geladen werden.");
-    return response.text();
-  })
-  .then(html => {
-    document.getElementById("header-container").innerHTML = html;
-  })
-  .catch(error => console.error("Fehler beim Laden des Headers:", error));
+    .then(response => {
+        if (!response.ok) throw new Error("Header konnte nicht geladen werden.");
+        return response.text();
+    })
+    .then(html => {
+        document.getElementById("header-container").innerHTML = html;
+    })
+    .catch(error => console.error("Fehler beim Laden des Headers:", error));
+
 
 
 
