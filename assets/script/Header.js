@@ -9,3 +9,6 @@ fetch('/components/Header.html')
     document.getElementById('header-placeholder').innerHTML = html;
   })
   .catch(error => console.error('Fehler beim Laden des Headers:', error));
+
+
+ 

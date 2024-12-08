@@ -1,0 +1,82 @@
+/* Allgemeine Stile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  h1, h2 {
+    color: #005f73;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #005f73;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Header */
+  .site-header {
+    background-color: #005f73;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .site-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .main-nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0;
+    padding: 0;
+  }
+  
+  .main-nav ul li {
+    margin: 0 15px;
+  }
+  
+  .main-nav ul li a {
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .main-nav ul li a:hover {
+    color: #94d2bd;
+  }
+  
+  /* Hauptinhalt */
+  .main-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .introduction, .features, .applications {
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    margin: 10px 0 0;
+    padding: 0;
+  }
+  
+  .features ul li {
+    margin-bottom: 10px;
+  }
+  
+  .cta {
+    text-align: center;
+   
+   }

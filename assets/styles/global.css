@@ -1,400 +1,427 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: 0px solid rgb(72, 70, 70) !important;
-    box-sizing: border-box !important;
+  margin: 0;
+  padding: 0;
+  outline: 0px solid rgb(72, 70, 70) !important;
+  box-sizing: border-box !important;
 }
 
 
 /* Footer allgemeines Styling */
 footer {
-    background-color: #ffffff;
-    color: white;
-    text-align: center;
+  background-color: #ffffff;
+  color: white;
+  text-align: center;
 
 }
 
 /* Obere Hälfte des Footers */
 footer .footer-content {
-    max-width: 1800px;
-    margin: 0 auto;
+  max-width: 1800px;
+  margin: 0 auto;
 
-    /* Abstand zur unteren Hälfte */
+  /* Abstand zur unteren Hälfte */
 
 }
 
 footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 40px 0;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 40px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 
 /* Untere Hälfte: Copyright-Bereich */
 footer .footer-copyright {
-    background-color: rgb(39, 39, 37);
-    /* Hintergrundfarbe wie gewünscht */
-    padding: 10px 0;
+  background-color: rgb(39, 39, 37);
+  /* Hintergrundfarbe wie gewünscht */
+  padding: 10px 0;
 }
 
 .div-logo-footer {
-    display: flex;
-    justify-content: start;
-    margin-left: -45px;
+  display: flex;
+  justify-content: start;
+  margin-left: -45px;
 }
 
 .div-p-slogan {
-    margin-top: -65px;
-    margin-left: -168px;
+  margin-top: -65px;
+  margin-left: -168px;
 }
 
 .p-slogan {
-    font-size: 24px;
-    color: grey;
+  font-size: 24px;
+  color: grey;
 }
 
 .footer-copyright p {
-    margin: 0;
-    color: white;
-    /* Schriftfarbe */
-    font-size: 20px;
-    /* Optional: kleinere Schrift */
+  margin: 0;
+  color: white;
+  /* Schriftfarbe */
+  font-size: 20px;
+  /* Optional: kleinere Schrift */
 }
 
 .footer-inner-div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 70px;
 }
 
 .ul-footer {
-    color: black;
-    display: flex;
-    flex-direction: column;
+  color: black;
+  display: flex;
+  flex-direction: column;
 
-    
+
 }
 
 .a-href--footer-angebot-anforden {
-    background-color: rgb(102, 173, 41);
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 250px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    margin-top: -180px;
+  background-color: rgb(102, 173, 41);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 250px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: -180px;
 }
 
 .a-href--footer-angebot-anforden:hover {
-    background-color: rgb(68, 127, 17);
-    transition: background-color 0.3s ease;
-    /* Buttonfarbe beim Hover */
+  background-color: rgb(68, 127, 17);
+  transition: background-color 0.3s ease;
+  /* Buttonfarbe beim Hover */
 }
 
 .div-footer-p-mindst {
-    width: 600px;
-    margin-bottom: 100px;
+  width: 600px;
+  margin-bottom: 100px;
 
 }
 
 .footer-p-mindst-para {
-    text-align: start;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 19px;
-    line-height: 1.6;
-    padding: 0 !important;
-    margin-top: 30px;
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  line-height: 1.6;
+  padding: 0 !important;
+  margin-top: 30px;
 }
 
 .a-href--footer-1 {
-    font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: underline;
-    cursor: pointer;
-    text-align: left;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: left;
 
 }
 
 .div-a-href--footer {
-    display: flex;
-    align-items: center;
-    margin-top: -30px;
+  display: flex;
+  align-items: center;
+  margin-top: -30px;
 }
 
 .inner-div-footer-ahref {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
 }
 
 .div-ahref-angebot {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.a-href--footer-122{
-text-decoration: underline;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
-*{margin: 0;
-    padding: 0;
-    outline: 0px solid rgb(224, 48, 48) !important;
-    box-sizing: border-box;
-  }
-  
-  .body {
-    margin: 0 !important;
-    padding: 0 !important;
-    box-sizing: border-box;
-    /* Wichtig für konsistente Layout-Berechnungen */
-    width: 100%;
-    height: 100%;
-  
-  }
-  
-  .header12 {
-    background-color: white;
-  
-  }
-  
-  .zero-div {
-    width: 100%;
-    height: 40px;
-    background-color: rgb(39, 39, 37);
-  
-  }
-  
-  .second-div {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .third-div {
-    width: 100%;
-    max-width: 1800px;
-    height: 200px;
-    margin-top: -14px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .div-logo {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .ul-header {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .container {
-    text-align: center;
-    /* Zentriere alle Inhalte horizontal */
-    line-height: 1.5;
-    /* Einheitliche Zeilenhöhe für alle Elemente */
-  }
-  
-  p,
-  a {
-    display: inline-block;
-    /* Macht das <a> wie die <p>-Elemente */
-    margin: 0;
-    padding: 10px 20px;
-  
-    color: rgb(14, 14, 14);
-    text-decoration: none;
-  }
-  
-  .logo-timber {
-    width: 500px;
-    margin-top: 15px;
-    height: 140px;margin-left: -30px;
-  }
-  
-  .header-aref {
-    font-size: 26px;
-    font-family: sans-serif;
-  }
-  
-  .button-kontakt {
-    padding: 20px 45px;
-    /* Größe des Buttons */
-    font-size: 22px;
-    /* Textgröße */
-    color: white;
-    /* Textfarbe */
-    background-color: rgb(102, 173, 41);
-    /* Buttonfarbe */
-    border: none;
-    /* Entfernt den Standardrahmen */
-    border-radius: 5px;
-    /* Abgerundete Ecken */
-    cursor: pointer;
-    /* Hand-Cursor für Interaktivität */
-    transition: background-color 0.3s ease;
-    /* Übergangseffekt */
-    font-family: 'Arial', sans-serif;
-    /* Ändert die Schriftart zu Arial */
-    font-weight: 100;
-    border-radius: 0;
-    margin-left: 70px;
-  }
-  
-  .button-kontakt:hover {
-    background-color: rgb(68, 127, 17);
-    /* Buttonfarbe beim Hover */
-  
-  }
-  
-  .div-footer {
-    background-color: rgb(39, 39, 37);
-    height: 400px;
-  }
-  
-  .background-div {
-    width: 100vw;
-    /* Volle Breite des Bildschirms */
-    height: 1000px;
-    /* Höhe der Div */
-    background-image: url('first-pic.PNG');
-    /* Hintergrundbild */
-    background-size: cover;
-    /* Hintergrundbild füllt den Bereich */
-    background-position: center;
-    /* Hintergrundbild zentrieren */
-    background-repeat: no-repeat;
-    /* Kein wiederholtes Bild */
-    display: flex;
-    /* Ermöglicht Zentrierung von Inhalt */
-    justify-content: center;
-    /* Horizontale Zentrierung */
-    align-items: center;
-    /* Vertikale Zentrierung */
-  }
-  
-  .text-container {
-    width: 100%;
-    /* Füllt den verfügbaren Platz */
-    max-width: 1800px;
-    /* Begrenzung der Breite auf 1480px */
-    text-align: center;
-    /* Zentriert den Text */
-    display: flex;
-    justify-content: flex-start;
-    color: white;
-    /* Textfarbe */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    /* Schatten für Lesbarkeit */
-    padding: 0 20px;
-    /* Optional: Innenabstand für kleinere Bildschirme */
-  }
-  
-  /* Bild und Overlay */
-  .image-container {
-    position: relative;
-    width: 100%;
-    /* Volle Breite für das Hintergrundbild */
-    height: 940px;
-    /* Höhe des Containers */
-    overflow: hidden;
-    /* Überstehendes Bild wird abgeschnitten */
-  }
-  
-  .image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    /* Skaliert das Bild, damit es den Container ausfüllt */
-  }
-  
-  /* Wrapper für zentrierte Inhalte */
-  .content-wrapper {
-    position: absolute;
-    /* Legt den Inhalt über das Bild */
-    top: 0;
-    left: 0;
-    width: 100%;
-  
-    /* Füllt den Container aus */
-    height: 100%;
-    /* Gleiche Höhe wie der Container */
-    display: flex;
-    /* Ermöglicht zentriertes Layout */
-    justify-content: center;
-    /* Horizontale Zentrierung */
-    align-items: center;
-    /* Vertikale Zentrierung */
-  }
-  
-  /* Zentrierter Inhalt mit max-width */
-  .text-container {
-    max-width: 1800px;
-    /* Begrenzung auf 1480px Breite */
-    width: 100%;
-    /* Sorgt dafür, dass die Breite flexibel bleibt */
-    text-align: center;
-    /* Zentriert den Text innerhalb des Containers */
-    color: white;
-    /* Textfarbe */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    /* Schatten für bessere Lesbarkeit */
-    padding: 0%;
-  }
-  
-  .text-container h1 {
-    font-size: 2.5rem;
-    /* Größe der Überschrift */
-    margin: 0;
-    /* Entfernt Standard-Abstand */
-  }
-  
-  .under-div-section-2 {
-    margin-top: 350px;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .h1-section-2 {
-    font-size: 85px !important;
-    text-align: start;
-    font-family: Arial, Helvetica, sans-serif;
-  
-  }
-  
-  .p-section-2 {
-    color: white;
-    font-size: 35px;
-    margin-top: 50px;
-    text-align: start;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .section-two-button {
-    color: white;
-    background-color: rgb(102, 173, 41);
-    border: none;
-    width: 280px;
-    height: 78px;
-    font-size: 24px;
-    transition: background-color 0.3s ease;
-    /* Übergangseffekt */
-    margin-top: 50px;
-  }
-  
-  .section-two-button:hover {
-    background-color: rgb(68, 127, 17);
-    /* Buttonfarbe beim Hover */
-  }
+.a-href--footer-122 {
+  text-decoration: underline;
+
+
+}
+
+
+
+/* ---------------------------------------------------HEADER---------------------------------------------- */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0px solid rgb(224, 48, 48) !important;
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box;
+  /* Wichtig für konsistente Layout-Berechnungen */
+  width: 100%;
+  height: 100%;
+
+}
+
+.zero-div-header {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(39, 39, 37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.nav-header {
+  width: 100%;
+  max-width: 1800px;
+  display: flex;
+  justify-content: end;
+}
+
+.header12 {
+  background-color: white;
+
+}
+
+.nav-header-a-href{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+
+}
+
+.second-div {
+  display: flex;
+  justify-content: center;
+}
+
+.third-div {
+  width: 100%;
+  max-width: 1800px;
+  height: 200px;
+  margin-top: -14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.ul-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  text-align: center;
+  /* Zentriere alle Inhalte horizontal */
+  line-height: 1.5;
+  /* Einheitliche Zeilenhöhe für alle Elemente */
+}
+
+p,
+a {
+  display: inline-block;
+  /* Macht das <a> wie die <p>-Elemente */
+  margin: 0;
+  padding: 10px 20px;
+
+  color: rgb(14, 14, 14);
+  text-decoration: none;
+}
+
+.logo-timber {
+  width: 500px;
+  margin-top: 15px;
+  height: 140px;
+  margin-left: -30px;
+}
+
+.header-aref {
+  font-size: 26px;
+  font-family: sans-serif;
+}
+
+.button-kontakt {
+  padding: 20px 45px;
+  /* Größe des Buttons */
+  font-size: 22px;
+  /* Textgröße */
+  color: white;
+  /* Textfarbe */
+  background-color: rgb(102, 173, 41);
+  /* Buttonfarbe */
+  border: none;
+  /* Entfernt den Standardrahmen */
+  border-radius: 5px;
+  /* Abgerundete Ecken */
+  cursor: pointer;
+  /* Hand-Cursor für Interaktivität */
+  transition: background-color 0.3s ease;
+  /* Übergangseffekt */
+  font-family: 'Arial', sans-serif;
+  /* Ändert die Schriftart zu Arial */
+  font-weight: 100;
+  border-radius: 0;
+  margin-left: 70px;
+}
+
+.button-kontakt:hover {
+  background-color: rgb(68, 127, 17);
+  /* Buttonfarbe beim Hover */
+
+}
+
+.div-footer {
+  background-color: rgb(39, 39, 37);
+  height: 400px;
+}
+
+.background-div {
+  width: 100vw;
+  /* Volle Breite des Bildschirms */
+  height: 1000px;
+  /* Höhe der Div */
+  background-image: url('first-pic.PNG');
+  /* Hintergrundbild */
+  background-size: cover;
+  /* Hintergrundbild füllt den Bereich */
+  background-position: center;
+  /* Hintergrundbild zentrieren */
+  background-repeat: no-repeat;
+  /* Kein wiederholtes Bild */
+  display: flex;
+  /* Ermöglicht Zentrierung von Inhalt */
+  justify-content: center;
+  /* Horizontale Zentrierung */
+  align-items: center;
+  /* Vertikale Zentrierung */
+}
+
+.text-container {
+  width: 100%;
+  /* Füllt den verfügbaren Platz */
+  max-width: 1800px;
+  /* Begrenzung der Breite auf 1480px */
+  text-align: center;
+  /* Zentriert den Text */
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  /* Textfarbe */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  /* Schatten für Lesbarkeit */
+  padding: 0 20px;
+  /* Optional: Innenabstand für kleinere Bildschirme */
+}
+
+/* Bild und Overlay */
+.image-container {
+  position: relative;
+  width: 100%;
+  /* Volle Breite für das Hintergrundbild */
+  height: 940px;
+  /* Höhe des Containers */
+  overflow: hidden;
+  /* Überstehendes Bild wird abgeschnitten */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Skaliert das Bild, damit es den Container ausfüllt */
+}
+
+/* Wrapper für zentrierte Inhalte */
+.content-wrapper {
+  position: absolute;
+  /* Legt den Inhalt über das Bild */
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  /* Füllt den Container aus */
+  height: 100%;
+  /* Gleiche Höhe wie der Container */
+  display: flex;
+  /* Ermöglicht zentriertes Layout */
+  justify-content: center;
+  /* Horizontale Zentrierung */
+  align-items: center;
+  /* Vertikale Zentrierung */
+}
+
+/* Zentrierter Inhalt mit max-width */
+.text-container {
+  max-width: 1800px;
+  /* Begrenzung auf 1480px Breite */
+  width: 100%;
+  /* Sorgt dafür, dass die Breite flexibel bleibt */
+  text-align: center;
+  /* Zentriert den Text innerhalb des Containers */
+  color: white;
+  /* Textfarbe */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  /* Schatten für bessere Lesbarkeit */
+  padding: 0%;
+}
+
+.text-container h1 {
+  font-size: 2.5rem;
+  /* Größe der Überschrift */
+  margin: 0;
+  /* Entfernt Standard-Abstand */
+}
+
+.under-div-section-2 {
+  margin-top: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.h1-section-2 {
+  font-size: 85px !important;
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.p-section-2 {
+  color: white;
+  font-size: 35px;
+  margin-top: 50px;
+  text-align: start;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-two-button {
+  color: white;
+  background-color: rgb(102, 173, 41);
+  border: none;
+  width: 280px;
+  height: 78px;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+  /* Übergangseffekt */
+  margin-top: 50px;
+}
+
+.section-two-button:hover {
+  background-color: rgb(68, 127, 17);
+  /* Buttonfarbe beim Hover */
+}
