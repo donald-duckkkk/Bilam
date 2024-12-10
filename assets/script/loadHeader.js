@@ -4,9 +4,9 @@ let headerPath = "components/Header.html"; // Standard: Deutsch
 
 // Header für die entsprechende Sprache laden
 if (pathname.includes("_en")) {
-    headerPath = "components/Header_en.html";
+    headerPath = "/components/Header_en.html";
 } else if (pathname.includes("_it")) {
-    headerPath = "components/Header_it.html";
+    headerPath = "/components/Header_it.html";
 }
 
 // Header laden

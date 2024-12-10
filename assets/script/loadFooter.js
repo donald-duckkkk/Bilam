@@ -4,15 +4,16 @@ let footerPath = "components/Footer.html"; // Standard: Deutsch
 
 // Footer für die entsprechende Sprache laden
 if (pathnameFooter.includes("_en")) {
-    footerPath = "components/Footer_en.html";
+    console.log("loading english footer")
+    footerPath = "/components/Footer_en.html";
 } else if (pathnameFooter.includes("_it")) {
-    footerPath = "components/Footer_it.html";
+    footerPath = "/components/Footer_it.html";
 }
 
 // Footer laden
 fetch(footerPath)
     .then(response => {
-        if (!response.ok) throw new Error("Footer konnte nicht geladen werden.");
+        if (!response.ok) throw new Error("Footer konnte nicht geladen werden.", response.status);
         return response.text();
     })
     .then(html => {
