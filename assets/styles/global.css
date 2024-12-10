@@ -160,15 +160,7 @@ footer .footer-copyright {
   box-sizing: border-box;
 }
 
-.body {
-  margin: 0 !important;
-  padding: 0 !important;
-  box-sizing: border-box;
-  /* Wichtig für konsistente Layout-Berechnungen */
-  width: 100%;
-  height: 100%;
 
-}
 
 .zero-div-header {
   width: 100%;
@@ -285,143 +277,14 @@ a {
 
 }
 
-.div-footer {
-  background-color: rgb(39, 39, 37);
-  height: 400px;
-}
 
-.background-div {
-  width: 100vw;
-  /* Volle Breite des Bildschirms */
-  height: 1000px;
-  /* Höhe der Div */
-  background-image: url('first-pic.PNG');
-  /* Hintergrundbild */
-  background-size: cover;
-  /* Hintergrundbild füllt den Bereich */
-  background-position: center;
-  /* Hintergrundbild zentrieren */
-  background-repeat: no-repeat;
-  /* Kein wiederholtes Bild */
-  display: flex;
-  /* Ermöglicht Zentrierung von Inhalt */
-  justify-content: center;
-  /* Horizontale Zentrierung */
-  align-items: center;
-  /* Vertikale Zentrierung */
-}
 
-.text-container {
-  width: 100%;
-  /* Füllt den verfügbaren Platz */
-  max-width: 1800px;
-  /* Begrenzung der Breite auf 1480px */
-  text-align: center;
-  /* Zentriert den Text */
-  display: flex;
-  justify-content: flex-start;
-  color: white;
-  /* Textfarbe */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  /* Schatten für Lesbarkeit */
-  padding: 0 20px;
-  /* Optional: Innenabstand für kleinere Bildschirme */
-}
 
-/* Bild und Overlay */
-.image-container {
-  position: relative;
-  width: 100%;
-  /* Volle Breite für das Hintergrundbild */
-  height: 940px;
-  /* Höhe des Containers */
-  overflow: hidden;
-  /* Überstehendes Bild wird abgeschnitten */
-}
 
-.image-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /* Skaliert das Bild, damit es den Container ausfüllt */
-}
 
-/* Wrapper für zentrierte Inhalte */
-.content-wrapper {
-  position: absolute;
-  /* Legt den Inhalt über das Bild */
-  top: 0;
-  left: 0;
-  width: 100%;
 
-  /* Füllt den Container aus */
-  height: 100%;
-  /* Gleiche Höhe wie der Container */
-  display: flex;
-  /* Ermöglicht zentriertes Layout */
-  justify-content: center;
-  /* Horizontale Zentrierung */
-  align-items: center;
-  /* Vertikale Zentrierung */
-}
 
-/* Zentrierter Inhalt mit max-width */
-.text-container {
-  max-width: 1800px;
-  /* Begrenzung auf 1480px Breite */
-  width: 100%;
-  /* Sorgt dafür, dass die Breite flexibel bleibt */
-  text-align: center;
-  /* Zentriert den Text innerhalb des Containers */
-  color: white;
-  /* Textfarbe */
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  /* Schatten für bessere Lesbarkeit */
-  padding: 0%;
-}
 
-.text-container h1 {
-  font-size: 2.5rem;
-  /* Größe der Überschrift */
-  margin: 0;
-  /* Entfernt Standard-Abstand */
-}
 
-.under-div-section-2 {
-  margin-top: 350px;
-  display: flex;
-  flex-direction: column;
-}
 
-.h1-section-2 {
-  font-size: 85px !important;
-  text-align: start;
-  font-family: Arial, Helvetica, sans-serif;
 
-}
-
-.p-section-2 {
-  color: white;
-  font-size: 35px;
-  margin-top: 50px;
-  text-align: start;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.section-two-button {
-  color: white;
-  background-color: rgb(102, 173, 41);
-  border: none;
-  width: 280px;
-  height: 78px;
-  font-size: 24px;
-  transition: background-color 0.3s ease;
-  /* Übergangseffekt */
-  margin-top: 50px;
-}
-
-.section-two-button:hover {
-  background-color: rgb(68, 127, 17);
-  /* Buttonfarbe beim Hover */
-}
