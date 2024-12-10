@@ -8,7 +8,7 @@
 /* Allgemeine Einstellungen */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+ font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f4f4;
 }
 
@@ -49,8 +49,8 @@ body {
   z-index: 2; /* Stellt sicher, dass der Text über dem Bild bleibt */
 }
 
-.section-1 h1 {
-  font-size: 3em;
+.section-1-h1 {
+  font-size: 75px;
   margin: 0.2em 0;
 }
 
