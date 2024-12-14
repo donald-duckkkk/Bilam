@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  outline: 0px solid rgb(24, 7, 7) !important;
+  outline: 0px solid rgb(75, 64, 64) !important;
   box-sizing: border-box;
 }
 
@@ -91,10 +91,11 @@ body {
   padding: 2em;
   background-color: white;
   text-align: center;
-  height: 1400px;
+  height: auto;
   display: flex;
   flex-direction: column;
-align-items: center;
+  align-items: center;
+  margin-bottom: 100px;
 }
 
 .section-2 p {
@@ -117,7 +118,130 @@ align-items: center;
 
 .p-section-2 {
   font-size: 26px !important;
-margin-top: 60px;
-width: 1300px;
-text-align: start;
+  margin-top: 60px;
+  width: 1300px;
+  text-align: start;
+}
+
+/* Section 3------------------------------------------- */
+
+.div-section-3 {
+  width: 100%;
+  height: 1450px;
+  background-color: #333;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.h2-section-3-1 {
+  color: white;
+  font-size: 50px;
+
+}
+
+.h2-section-3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 140px;
+}
+
+
+.inner-div-section-3 {
+  width: 100%;
+  max-width: 1800px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 140px;
+
+}
+
+.over-div-img-section-3 {
+  width: 600px;
+  height: 300px;
+
+}
+
+.section-3-first-img {
+  background-image: url('/assets/images/Perlinen/Profilholz-der-stall.PNG');
+  /* Pfad zum Bild */
+  background-size: cover;
+  /* Bild skalieren, um den Container auszufüllen */
+  background-position: center;
+  /* Bild zentrieren */
+  background-repeat: no-repeat;
+  /* Wiederholung des Bildes verhindern */
+  width: 100%;
+  /* Breite des Containers */
+  height: 300px;
+  /* Höhe des Containers */
+}
+
+.section-3-second-img {
+  background-image: url('/assets/images/Perlinen/Profilholz-Garden.jpg');
+  /* Pfad zum Bild */
+  background-size: cover;
+  /* Bild skalieren, um den Container auszufüllen */
+  background-position: center;
+  /* Bild zentrieren */
+  background-repeat: no-repeat;
+  /* Wiederholung des Bildes verhindern */
+  width: 100%;
+  /* Breite des Containers */
+  height: 300px;
+
+}
+
+.section-3-firsto-img {
+  background-image: url('/assets/images/Perlinen/Perlinen\ -innen.jpg');
+  /* Pfad zum Bild */
+  background-size: cover;
+  /* Bild skalieren, um den Container auszufüllen */
+  background-position: center;
+  /* Bild zentrieren */
+  background-repeat: no-repeat;
+  /* Wiederholung des Bildes verhindern */
+  width: 100%;
+  /* Breite des Containers */
+  height: 300px;
+
+}
+
+.h3-section-3-img {
+  color: #ffffff;
+  font-size: 34px;
+  margin-top: 37px;
+
+
+
+
+}
+
+.p-section-3 {
+  text-align: start;
+  padding: 0px;
+  color: white;
+  margin-top: 40px;
+  font-size: 23px;
+  line-height: 1.5;
+  /* 1.5-facher Zeilenabstand */
+
+}
+
+.a-href-section-3{
+color: #ffffff;
+margin-top: 120px;
+background-color: rgb(102,173,41);
+padding: 28px;
+font-size: 24px;
+ }
+.a-href-section-3:hover {
+  background-color: rgb(69, 129, 18);
 }
