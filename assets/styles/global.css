@@ -160,7 +160,9 @@ footer .footer-copyright {
   box-sizing: border-box;
 }
 
-
+body {
+  padding-top: 210px; /* Platz für den fixierten Header */
+}
 
 .zero-div-header {
   width: 100%;
@@ -169,9 +171,12 @@ footer .footer-copyright {
   display: flex;
   justify-content: center;
   align-items: center;
-
-
+  position: fixed; /* Fixiere den Header */
+  top: 0; /* Oben auf der Seite positionieren */
+  z-index: 1000; /* Über anderen Inhalten anzeigen */
 }
+
+/* -----------------------HEADER-2--------------------------------------------- */
 
 .nav-header {
   width: 100%;
@@ -182,14 +187,16 @@ footer .footer-copyright {
 
 .header12 {
   background-color: white;
-
+  position: fixed; /* Fixiere den Header */
+  top: 60px; /* Direkt unter der `.zero-div-header` */
+  width: 100%;
+  z-index: 999; /* Direkt unter der `.zero-div-header` */
 }
 
-.nav-header-a-href{
-color: white;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-
+.nav-header-a-href {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 .second-div {
@@ -200,8 +207,8 @@ font-size: 20px;
 .third-div {
   width: 100%;
   max-width: 1800px;
-  height: 200px;
-  margin-top: -14px;
+  height: 150px; /* Höhe des Headers */
+  margin-top: 0; /* Kein zusätzlicher Rand */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -230,7 +237,6 @@ a {
   /* Macht das <a> wie die <p>-Elemente */
   margin: 0;
   padding: 10px 20px;
-
   color: rgb(14, 14, 14);
   text-decoration: none;
 }
@@ -240,6 +246,7 @@ a {
   margin-top: 15px;
   height: 140px;
   margin-left: -30px;
+  padding: 10px;
 }
 
 .header-aref {
@@ -248,7 +255,7 @@ a {
 }
 
 .button-kontakt {
-  padding: 20px 45px;
+  padding: 13px 35px;
   /* Größe des Buttons */
   font-size: 22px;
   /* Textgröße */
@@ -274,7 +281,6 @@ a {
 .button-kontakt:hover {
   background-color: rgb(68, 127, 17);
   /* Buttonfarbe beim Hover */
-
 }
 
 
